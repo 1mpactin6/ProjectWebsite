@@ -60,6 +60,17 @@ header {
     background-color: #008f7b;
 }
 
+/* Hero Section with Background Image */
+.hero-with-image {
+    background-image: url('hero-image.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    opacity: 0.8;
+    min-height: 600px;
+}
+
 /* DeepLogic Section Styles */
 .deeplogic {
     padding: 80px 20px;
