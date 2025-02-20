@@ -45,3 +45,20 @@ body {
     text-decoration: none;
     border-radius: 5px;
 }
+
+.gallery {
+    position: relative;
+    height: 300px; /* Adjust height as needed */
+    overflow: hidden;
+}
+
+.gallery-image {
+    position: absolute;
+    width: 100%;
+    height: auto;
+    display: none; /* Hide all images initially */
+}
+
+.gallery-image:first-child {
+    display: block; /* Show the first image */
+}

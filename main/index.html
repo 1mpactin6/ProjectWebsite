@@ -18,9 +18,28 @@
             </div>
         </div>
     </header>
+    <div class="gallery">
+        <img src="References/image1.jpg" alt="Image 1" class="gallery-image" />
+        <img src="References/image2.jpg" alt="Image 2" class="gallery-image" />
+        <img src="References/image3.jpg" alt="Image 3" class="gallery-image" />
+        <img src="References/image4.jpg" alt="Image 4" class="gallery-image" />
+    </div>
     <main>
         <h2>Welcome to DelegateMUN</h2>
         <p>Your content goes here...</p>
     </main>
+    <script>
+        const images = document.querySelectorAll('.gallery-image');
+        let currentIndex = 0;
+
+        function changeImage() {
+            images[currentIndex].style.display = 'none';
+            currentIndex = (currentIndex + 1) % images.length;
+            images[currentIndex].style.display = 'block';
+        }
+
+        setInterval(changeImage, 5000);
+        changeImage(); // Initial call to display the first image
+    </script>
 </body>
 </html>
