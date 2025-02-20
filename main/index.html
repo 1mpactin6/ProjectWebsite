@@ -3,43 +3,123 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DelegateMUN - Your Strategic Partner</title>
     <link rel="stylesheet" href="styles.css">
-    <title>DelegateMUN</title>
 </head>
 <body>
-    <header class="header">
-        <div class="header-content">
-            <h1 class="logo">DelegateMUN</h1>
-            <div class="header-right">
-                <a href="https://github.com/1mpactin6" target="_blank" class="github-icon">
-                    <img src="References/github-mark-c791e9551fe4/github-mark/github-mark-white.png" alt="GitHub" />
-                </a>
-                <a href="resources.html" class="resources-button">Resources</a>
+    <!-- Hero Section -->
+    <section class="hero">
+        <nav>
+            <div class="logo">DelegateMUN</div>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#strategies">Strategies</a></li>
+                <li><a href="#ai">AI Usage</a></li>
+                <li><a href="#advantages">Advantages</a></li>
+                <li><a href="#gallery">Gallery</a></li>
+            </ul>
+        </nav>
+        <div class="hero-content">
+            <h1>Transform Your MUN Experience</h1>
+            <p>Enhance your Model United Nations experience with cutting-edge strategies and AI-powered tools</p>
+            <a href="#get-started" class="cta-button">Learn More</a>
+        </div>
+    </section>
+
+    <!-- Strategies Section -->
+    <section id="strategies" class="section strategies">
+        <div class="section-header">
+            <h2>Proven Strategies</h2>
+            <p>Master the art of MUN debating with our expert-tested strategies</p>
+        </div>
+        <div class="strategy-cards">
+            <div class="card">
+                <img src="References/1.png" alt="Debate Strategy">
+                <h3>Advanced Debate Techniques</h3>
+                <p>Learn sophisticated debating strategies that give you a competitive edge</p>
+            </div>
+            <div class="card">
+                <img src="References/2.jpg" alt="Research Method">
+                <h3>Efficient Research Methods</h3>
+                <p>Discover how to gather and organize information quickly and effectively</p>
+            </div>
+            <div class="card">
+                <img src="References/3.jpg" alt="Team Coordination">
+                <h3>Team Coordination</h3>
+                <p>Maximize your team's potential with proven coordination strategies</p>
             </div>
         </div>
-    </header>
-    <div class="gallery">
-        <img src="References/image1.jpg" alt="Image 1" class="gallery-image" />
-        <img src="References/image2.jpg" alt="Image 2" class="gallery-image" />
-        <img src="References/image3.jpg" alt="Image 3" class="gallery-image" />
-        <img src="References/image4.jpg" alt="Image 4" class="gallery-image" />
-    </div>
-    <main>
-        <h2>Welcome to DelegateMUN</h2>
-        <p>Your content goes here...</p>
-    </main>
-    <script>
-        const images = document.querySelectorAll('.gallery-image');
-        let currentIndex = 0;
+    </section>
 
-        function changeImage() {
-            images[currentIndex].style.display = 'none';
-            currentIndex = (currentIndex + 1) % images.length;
-            images[currentIndex].style.display = 'block';
-        }
+    <!-- AI Usage Section -->
+    <section id="ai" class="section ai">
+        <div class="section-header">
+            <h2>AI-Powered Tools</h2>
+            <p>Leverage artificial intelligence to enhance your MUN performance</p>
+        </div>
+        <div class="ai-features">
+            <div class="feature">
+                <img src="References/4.avif" alt="AI Assistant">
+                <h3>Smart Research Assistant</h3>
+                <p>Automated research and data analysis powered by AI</p>
+            </div>
+            <div class="feature">
+                <img src="References/GitHub-Logos/GitHub-Logos/GitHub_Logo.png" alt="AI Platform">
+                <h3>Debate Preparation Platform</h3>
+                <p>AI-driven platform for debate preparation and strategy development</p>
+            </div>
+        </div>
+    </section>
 
-        setInterval(changeImage, 5000);
-        changeImage(); // Initial call to display the first image
-    </script>
+    <!-- Advantages Section -->
+    <section id="advantages" class="section advantages">
+        <div class="section-header">
+            <h2>Why Choose DelegateMUN?</h2>
+            <p>Discover the benefits of partnering with us</p>
+        </div>
+        <div class="advantage-grid">
+            <div class="advantage">
+                <img src="References/github-mark-c791e9551fe4/github-mark/github-mark-white.png" alt="Expertise">
+                <h3>Expert Guidance</h3>
+                <p>Learn from experienced MUN coaches and debaters</p>
+            </div>
+            <div class="advantage">
+                <img src="References/1.png" alt="Proven Results">
+                <h3>Proven Results</h3>
+                <p>Trackable improvements in your debating skills</p>
+            </div>
+            <div class="advantage">
+                <img src="References/2.jpg" alt="Community Support">
+                <h3>Supportive Community</h3>
+                <p>Connect with other MUN enthusiasts worldwide</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Gallery Section -->
+    <section id="gallery" class="section gallery">
+        <div class="section-header">
+            <h2>Event Gallery</h2>
+            <p>Highlights from our past events</p>
+        </div>
+        <div class="gallery-grid">
+            <img src="References/3.jpg" alt="Event 1">
+            <img src="References/4.avif" alt="Event 2">
+            <img src="References/GitHub-Logos/GitHub-Logos/GitHub_Logo.png" alt="Event 3">
+            <img src="References/github-mark-c791e9551fe4/github-mark/github-mark-white.png" alt="Event 4">
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-content">
+            <p>&copy; 2025 DelegateMUN. All rights reserved.</p>
+            <div class="social-links">
+                <a href="#">Contact Us</a>
+                <a href="#">Privacy Policy</a>
+                <a href="#">Terms of Service</a>
+            </div>
+        </div>
+    </footer>
 </body>
 </html>
