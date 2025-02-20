@@ -1,246 +1,179 @@
+/* Dark Blue Theme */
+body {
+    background-color: #0a192f;
+    color: #ffffff;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
 /* Header Styles */
 header {
-    background-color: darkblue;
-    color: white;
-    padding: 20px;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding: 1rem 2rem;
+    background-color: #152a4a;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
 }
 
-.nav-links {
-    list-style: none;
+.logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.nav-menu {
     display: flex;
-    gap: 20px;
-    margin: 0;
-    padding: 0;
+    gap: 2rem;
 }
 
-.nav-links a {
-    color: white;
+.nav-link {
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: 500;
+    transition: color 0.3s;
+}
+
+.nav-link:hover {
+    color: #00ff9d;
+}
+
+/* Hero Section */
+hero {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 2rem;
+    background: linear-gradient(rgba(10, 41, 79, 0.9), rgba(10, 41, 79, 0.9)),
+    url('Logo/DelegateMUN-dark.jpeg') center/cover;
+}
+
+.hero-content {
+    max-width: 800px;
+}
+
+.hero-title {
+    font-size: 3.5rem;
+    margin-bottom: 1rem;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.hero-subtitle {
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+    color: #cccccc;
+}
+
+.hero-button {
+    background-color: #00ff9d;
+    color: #152a4a;
+    padding: 1rem 2rem;
+    border-radius: 5px;
     text-decoration: none;
     font-weight: bold;
-    transition: color 0.3s ease;
+    transition: transform 0.3s;
 }
 
-.nav-links a:hover {
-    color: #00b894;
+.hero-button:hover {
+    transform: translateY(-2px);
 }
 
-/* Hero Section Styles */
-.hero {
-    background-color: darkblue;
-    color: white;
-    padding: 100px 20px;
+/* Deep Logic Section */
+.deep_logic {
+    padding: 5rem 2rem;
+    background-color: #152a4a;
+}
+
+.deep_logic-title {
     text-align: center;
-}
-
-.hero h1 {
-    font-size: 3.5rem;
-    margin-bottom: 20px;
-}
-
-.hero p {
-    font-size: 1.5rem;
-    margin-bottom: 30px;
-}
-
-.hero button {
-    background-color: #00b894;
-    color: darkblue;
-    padding: 15px 30px;
-    border: none;
-    border-radius: 5px;
-    font-size: 1.1rem;
-    cursor: pointer;
-    transition: background-color 0.3s ease;
-}
-
-.hero button:hover {
-    background-color: #008f7b;
-}
-
-/* Hero Section with Background Image */
-.hero-with-image {
-    background-image: url('hero-image.jpg');
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    opacity: 0.8;
-    min-height: 600px;
-}
-
-/* DeepLogic Section Styles */
-.deeplogic {
-    padding: 80px 20px;
-    text-align: center;
-}
-
-.deeplogic h2 {
-    color: white;
+    margin-bottom: 3rem;
     font-size: 2.5rem;
-    margin-bottom: 20px;
 }
 
-.deeplogic p {
-    color: white;
-    font-size: 1.2rem;
-    line-height: 1.6;
-    max-width: 800px;
-    margin: 0 auto;
-}
-
-/* Past Projects Section Styles */
-.past-projects {
-    padding: 80px 20px;
-    text-align: center;
-}
-
-.past-projects h2 {
-    color: white;
-    font-size: 2.5rem;
-    margin-bottom: 20px;
-}
-
-.past-projects p {
-    color: white;
-    font-size: 1.2rem;
-    margin-bottom: 40px;
-}
-
-.project-cards {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-    gap: 30px;
-    max-width: 1200px;
-    margin: 0 auto;
-}
-
-.project-card {
-    background-color: darkblue;
-    padding: 30px;
+.deep_logic-card {
+    background-color: #0d1623;
     border-radius: 10px;
-    text-align: center;
+    padding: 2rem;
+    margin-bottom: 2rem;
+    transition: transform 0.3s;
 }
 
-.project-card h3 {
-    color: white;
-    margin-bottom: 15px;
+.deep_logic-card:hover {
+    transform: translateY(-5px);
 }
 
-.project-card button {
-    background-color: #00b894;
-    color: darkblue;
-    padding: 10px 20px;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    transition: background-color 0.3s ease;
-}
-
-.project-card button:hover {
-    background-color: #008f7b;
-}
-
-/* Services Section Styles */
+/* Services Section */
 .services {
-    padding: 80px 20px;
+    padding: 5rem 2rem;
+}
+
+.services-title {
     text-align: center;
-}
-
-.services h2 {
-    color: white;
+    margin-bottom: 3rem;
     font-size: 2.5rem;
-    margin-bottom: 20px;
 }
 
-.services p {
-    color: white;
-    font-size: 1.2rem;
-    margin-bottom: 40px;
-}
-
-.service-categories {
+.service-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-    gap: 30px;
-    max-width: 1200px;
-    margin: 0 auto;
+    gap: 2rem;
+    margin-top: 2rem;
 }
 
-.category {
-    background-color: darkblue;
-    padding: 30px;
+.service-card {
+    background-color: #0d1623;
     border-radius: 10px;
-    text-align: left;
-}
-
-.category h3 {
-    color: white;
-    margin-bottom: 15px;
-}
-
-.category ul {
-    list-style: none;
-    padding: 0;
-}
-
-.category li {
-    color: white;
-    margin-bottom: 10px;
-}
-
-/* Footer Styles */
-footer {
-    background-color: darkblue;
-    color: white;
-    padding: 40px 20px;
+    padding: 2rem;
     text-align: center;
 }
 
-footer h3 {
-    margin-bottom: 15px;
+.service-card:hover {
+    background-color: #152a4a;
 }
 
-footer p {
-    margin-bottom: 20px;
+/* Footer */
+footer {
+    background-color: #152a4a;
+    padding: 3rem 2rem;
+    text-align: center;
 }
 
-.social-links {
+footer-title {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+footer-subtitle {
+    color: #cccccc;
+    margin-bottom: 2rem;
+}
+
+.footer-links {
     display: flex;
     justify-content: center;
-    gap: 20px;
-    margin-bottom: 20px;
+    gap: 1rem;
+    list-style: none;
+    padding: 0;
+    margin-top: 2rem;
 }
 
-.social-links a {
-    color: white;
+.footer-link {
+    color: #cccccc;
     text-decoration: none;
-    transition: color 0.3s ease;
+    transition: color 0.3s;
 }
 
-.social-links a:hover {
-    color: #00b894;
+.footer-link:hover {
+    color: #00ff9d;
 }
 
-/* Responsive Design */
-@media (max-width: 768px) {
-    .nav-links {
-        flex-direction: column;
-        align-items: flex-start;
-        margin-top: 20px;
-    }
-
-    .nav-links li {
-        margin-bottom: 10px;
-    }
-
-    .hero h1 {
-        font-size: 2.5rem;
-    }
-
-    .hero p {
-        font-size: 1.2rem;
-    }
+/* Copyright */
+.copyright {
+    margin-top: 2rem;
+    color: #cccccc;
 }
