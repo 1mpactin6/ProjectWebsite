@@ -1,7 +1,7 @@
-document.addEventListener('DOMContentLoaded', function() {
+document.addEventListener('DOMContentLoaded', () => {
     // Smooth scrolling for anchor links
     document.querySelectorAll('a[href^="#"]').forEach(anchor => {
-        anchor.addEventListener('click', function(e) {
+        anchor.addEventListener('click', (e) => {
             e.preventDefault();
             document.querySelector(this.getAttribute('href')).scrollIntoView({
                 behavior: 'smooth'
@@ -10,24 +10,27 @@ document.addEventListener('DOMContentLoaded', function() {
     });
 
     // Sticky header
-    window.addEventListener('scroll', function() {
+    window.addEventListener('scroll', () => {
         const header = document.querySelector('header');
         if (window.scrollY > 0) {
             header.style.background = 'rgba(44, 62, 80, 0.95)';
+            header.style.boxShadow = '0 2px 10px rgba(0, 0, 0, 0.1)';
         } else {
             header.style.background = 'rgba(44, 62, 80, 0.95)';
+            header.style.boxShadow = 'none';
         }
     });
 
     // Form submission
     const form = document.querySelector('.contact-form');
     if (form) {
-        form.addEventListener('submit', function(e) {
+        form.addEventListener('submit', (e) => {
             e.preventDefault();
+            const formData = new FormData(form);
             // Add your form submission logic here
+            alert('Form submitted successfully!');
         });
     }
-});
-</
 
-[Response interrupted by a tool use result. Only one tool may be used at a time and should be placed at the end of the message.]
+    // Add your additional JavaScript functionality here
+});

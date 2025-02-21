@@ -1,145 +1,120 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>DelegateMUN - Advanced Text Analysis</title>
-    <link rel="stylesheet" href="website.css">
-    <link rel="stylesheet" href="header.css">
-</head>
-<body>
-    <!-- Header Section -->
+<!-- Header Section -->
     <header>
-        <nav class="navbar">
-            <div class="logo">
-                <img src="Logos/DelegateMUN-light.jpeg" alt="DelegateMUN Logo" class="logo-img">
-                <span class="logo-text">DelegateMUN</span>
+        <nav>
+            <img src="main/Logos/DelegateMUN-light.jpeg" alt="DelegateMUN Logo" class="logo">
+            <div class="nav-links">
+                <a href="#home">Home</a>
+                <a href="#features">Features</a>
+                <a href="#pricing">Pricing</a>
+                <a href="#contact">Contact</a>
             </div>
-            <ul class="nav-links">
-                <li><a href="#home">Home</a></li>
-                <li><a href="#services">Services</a></li>
-                <li><a href="#analysis">Analysis</a></li>
-                <li><a href="#gallery">Gallery</a></li>
-                <li><a href="#team">Team</a></li>
-                <li><a href="#testimonials">Testimonials</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
         </nav>
     </header>
 
     <!-- Hero Section -->
-    <section class="hero" id="home">
-        <h1 class="hero-title">Advanced Text Analysis</h1>
-        <p class="hero-subtitle">Unlock deeper insights with our AI-powered text analysis services</p>
-        <a href="#analysis" class="hero-button">Get Started</a>
+    <section id="home">
+        <h1>Advanced Text Analysis Services</h1>
+        <p>Transform your text processing with our state-of-the-art AI-powered solutions.</p>
+        <a href="#pricing" class="cta-button">Get Started</a>
     </section>
 
-    <!-- Services Section -->
-    <section class="services" id="services">
-        <div class="services-grid">
-            <div class="service-card">
-                <img src="References/AIReference1.png" alt="AI Analysis" class="service-image">
+    <!-- Features Section -->
+    <section id="features">
+        <h2>Our Features</h2>
+        <div class="features-grid">
+            <div class="feature-card">
                 <h3>Advanced AI Analysis</h3>
-                <p>State-of-the-art algorithms for deep text understanding</p>
+                <p>State-of-the-art text processing algorithms</p>
             </div>
-            <div class="service-card">
-                <img src="References/AIReference2.png" alt="NLP Processing" class="service-image">
-                <h3>Natural Language Processing</h3>
-                <p>Advanced language understanding capabilities</p>
+            <div class="feature-card">
+                <h3>Secure Processing</h3>
+                <p>End-to-end encryption and secure processing</p>
             </div>
-            <div class="service-card">
-                <img src="References/AIReference3.png" alt="Data Insights" class="service-image">
-                <h3>Insightful Reports</h3>
-                <p>Detailed analysis and actionable insights</p>
+            <div class="feature-card">
+                <h3>Real-time Analytics</h3>
+                <p>Instant insights and detailed reports</p>
             </div>
         </div>
     </section>
 
-    <!-- Analysis Section -->
-    <section class="analysis" id="analysis">
-        <div class="analysis-content">
-            <h2>Text Analysis Platform</h2>
-            <form class="contact-form">
-                <textarea class="form-group" placeholder="Enter your text here..."></textarea>
-                <button type="submit">Analyze Text</button>
-            </form>
-        </div>
-    </section>
-
-    <!-- Gallery Section -->
-    <section class="gallery" id="gallery">
-        <div class="gallery-grid">
-            <div class="gallery-item">
-                <img src="References/DeepLogicWebsite-large.png" alt="Analysis Example">
+    <!-- Pricing Section -->
+    <section id="pricing">
+        <h2>Pricing Plans</h2>
+        <div class="pricing-cards">
+            <div class="pricing-card">
+                <h3>Basic</h3>
+                <p>Perfect for small businesses</p>
+                <p>$99/month</p>
+                <a href="#contact" class="btn">Choose Plan</a>
             </div>
-            <div class="gallery-item">
-                <img src="References/DeepLogicWebsite3.png" alt="Dashboard">
+            <div class="pricing-card">
+                <h3>Pro</h3>
+                <p>For growing businesses</p>
+                <p>$199/month</p>
+                <a href="#contact" class="btn">Choose Plan</a>
             </div>
-            <div class="gallery-item">
-                <img src="References/DeepLogicWebsite4.png" alt="Report">
-            </div>
-        </div>
-    </section>
-
-    <!-- Team Section -->
-    <section class="team" id="team">
-        <div class="team-grid">
-            <div class="team-member">
-                <img src="References/GitHub-Logos/GitHub_Logo_White.png" alt="Team Member" class="team-member">
-                <h3>John Doe</h3>
-                <p>CEO & Founder</p>
-            </div>
-            <div class="team-member">
-                <img src="References/GitHub-Logos/GitHub_Logo_White.png" alt="Team Member" class="team-member">
-                <h3>Jane Smith</h3>
-                <p>CTO</p>
-            </div>
-            <div class="team-member">
-                <img src="References/GitHub-Logos/GitHub_Logo_White.png" alt="Team Member" class="team-member">
-                <h3>Mike Johnson</h3>
-                <p>Lead Analyst</p>
+            <div class="pricing-card">
+                <h3>Enterprise</h3>
+                <p>Custom solutions for large organizations</p>
+                <p>Custom pricing</p>
+                <a href="#contact" class="btn">Contact Us</a>
             </div>
         </div>
     </section>
 
-    <!-- Testimonials Section -->
-    <section class="testimonials" id="testimonials">
-        <div class="testimonial-grid">
-            <div class="testimonial-card">
-                <img src="References/GitHub-Logos/GitHub_Logo_White.png" alt="Avatar" class="testimonial-avatar">
-                <p>"Outstanding text analysis capabilities!"</p>
-                <h4>Dr. Sarah Williams</h4>
-            </div>
-            <div class="testimonial-card">
-                <img src="References/GitHub-Logos/GitHub_Logo_White.png" alt="Avatar" class="testimonial-avatar">
-                <p>"The best tool for deep text understanding."</p>
-                <h4>Prof. Michael Brown</h4>
-            </div>
-        </div>
+    <!-- Contact Form -->
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <form class="contact-form">
+            <input type="text" placeholder="Name" required>
+            <input type="email" placeholder="Email" required>
+            <textarea placeholder="Message" rows="5" required></textarea>
+            <button type="submit">Send Message</button>
+        </form>
     </section>
 
-    <!-- Contact Section -->
-    <section class="contact" id="contact">
-        <div class="contact-form">
-            <h2>Contact Us</h2>
-            <form>
-                <div class="form-group">
-                    <input type="text" placeholder="Your Name" required>
+    <!-- Blog Section -->
+    <section id="blog">
+        <h2>Latest Insights</h2>
+        <div class="blog-grid">
+            <article class="blog-post">
+                <div class="post-image" style="background-image: url('main/References/AIReference3.png')"></div>
+                <div class="post-content">
+                    <h3>AI Analysis: The Future of Text Processing</h3>
+                    <p>Discover how our advanced AI algorithms are transforming text analysis...</p>
+                    <a href="#" class="btn">Read More</a>
                 </div>
-                <div class="form-group">
-                    <input type="email" placeholder="Your Email" required>
+            </article>
+            <article class="blog-post">
+                <div class="post-image" style="background-image: url('main/References/AIReference4.png')"></div>
+                <div class="post-content">
+                    <h3>Secure Text Processing</h3>
+                    <p>Learn about our end-to-end encryption and secure processing methods...</p>
+                    <a href="#" class="btn">Read More</a>
                 </div>
-                <div class="form-group">
-                    <textarea placeholder="Your Message" rows="5" required></textarea>
-                </div>
-                <button type="submit">Send Message</button>
-            </form>
+            </article>
         </div>
     </section>
 
-    <!-- Footer -->
-    <footer>
-        <p>&copy; 2025 DelegateMUN. All rights reserved.</p>
-    </footer>
-</body>
-</html>
+    <!-- Footer Section -->
+    <section id="footer">
+        <h2>Connect With Us</h2>
+        <div class="footer-content">
+            <div class="contact-info">
+                <p>Email: support@delegatemun.com</p>
+                <p>Phone: (555) 123-4567</p>
+                <p>Address: 123 Delegate Street, MUN City</p>
+            </div>
+            <div class="social-links">
+                <a href="#" class="social-btn">LinkedIn</a>
+                <a href="#" class="social-btn">Twitter</a>
+                <a href="#" class="social-btn">GitHub</a>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2025 DelegateMUN. All rights reserved.</p>
+        </div>
+    </section>
+
+    <!-- Scripts -->
+    <script src="scripts.js"></script>
