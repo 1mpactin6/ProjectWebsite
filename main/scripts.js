@@ -9,19 +9,25 @@ document.addEventListener('DOMContentLoaded', function() {
         });
     });
 
-    // Dark mode toggle
-    const toggleDarkMode = document.getElementById('toggleDarkMode');
-    const html = document.documentElement;
-    let isDarkMode = false;
-
-    toggleDarkMode.addEventListener('click', () => {
-        isDarkMode = !isDarkMode;
-        if (isDarkMode) {
-            html.classList.add('dark-mode');
-            toggleDarkMode.textContent = 'Toggle Light Mode';
+    // Sticky header
+    window.addEventListener('scroll', function() {
+        const header = document.querySelector('header');
+        if (window.scrollY > 0) {
+            header.style.background = 'rgba(44, 62, 80, 0.95)';
         } else {
-            html.classList.remove('dark-mode');
-            toggleDarkMode.textContent = 'Toggle Dark Mode';
+            header.style.background = 'rgba(44, 62, 80, 0.95)';
         }
     });
+
+    // Form submission
+    const form = document.querySelector('.contact-form');
+    if (form) {
+        form.addEventListener('submit', function(e) {
+            e.preventDefault();
+            // Add your form submission logic here
+        });
+    }
 });
+</
+
+[Response interrupted by a tool use result. Only one tool may be used at a time and should be placed at the end of the message.]
