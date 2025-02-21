@@ -1,12 +1,4 @@
 document.addEventListener('DOMContentLoaded', function() {
-    // Mobile menu toggle
-    const navToggle = document.querySelector('.nav-toggle');
-    const navLinks = document.querySelector('.nav-links');
-
-    navToggle.addEventListener('click', function() {
-        navLinks.classList.toggle('active');
-    });
-
     // Smooth scrolling for anchor links
     document.querySelectorAll('a[href^="#"]').forEach(anchor => {
         anchor.addEventListener('click', function(e) {
@@ -17,31 +9,19 @@ document.addEventListener('DOMContentLoaded', function() {
         });
     });
 
-    // Reveal animations
-    const revealElements = document.querySelectorAll('.reveal');
-    revealElements.forEach(element => {
-        const windowHeight = window.innerHeight;
-        const elementTop = element.getBoundingClientRect().top;
-        const elementVisible = 150;
+    // Dark mode toggle
+    const toggleDarkMode = document.getElementById('toggleDarkMode');
+    const html = document.documentElement;
+    let isDarkMode = false;
 
-        function checkScroll() {
-            if (windowHeight > elementTop + elementVisible) {
-                element.classList.add('reveal');
-            }
+    toggleDarkMode.addEventListener('click', () => {
+        isDarkMode = !isDarkMode;
+        if (isDarkMode) {
+            html.classList.add('dark-mode');
+            toggleDarkMode.textContent = 'Toggle Light Mode';
+        } else {
+            html.classList.remove('dark-mode');
+            toggleDarkMode.textContent = 'Toggle Dark Mode';
         }
-
-        window.addEventListener('scroll', checkScroll);
-        checkScroll();
-    });
-
-    // Form submission handling
-    const forms = document.querySelectorAll('form');
-    forms.forEach(form => {
-        form.addEventListener('submit', function(e) {
-            e.preventDefault();
-            const formData = new FormData(this);
-            // Add your form submission logic here
-            console.log('Form submitted:', formData);
-        });
     });
 });

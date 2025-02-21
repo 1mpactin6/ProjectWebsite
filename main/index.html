@@ -3,65 +3,126 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>DelegateMUN</title>
-    <link rel="stylesheet" href="header.css">
+    <title>DelegateMUN - Advanced Text Analysis</title>
     <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="header.css">
+    <link rel="stylesheet" href="sections.css">
+    <link rel="stylesheet" href="website.css">
+    <link rel="stylesheet" href="footer.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 </head>
 <body>
+    <!-- Header Section -->
     <header>
-        <nav class="nav">
-            <div class="nav-brand">DelegateMUN</div>
-            <button class="nav-toggle">☰</button>
-            <ul class="nav-links">
-                <li><a href="#home">Home</a></li>
-                <li><a href="#features">Features</a></li>
-                <li><a href="#about">About</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
+        <nav class="navbar">
+            <div class="logo">
+                <img src="Logos/DelegateMUN-gold.jpeg" alt="DelegateMUN Logo" class="logo-img">
+                <h1 class="logo-text">DelegateMUN</h1>
+            </div>
+            <div class="nav-links">
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
         </nav>
     </header>
 
-    <section class="hero" id="home">
-        <h1>Welcome to DelegateMUN</h1>
-        <p>Empowering Model United Nations with AI and Deep Logic</p>
-        <button class="cta-button">Get Started</button>
+    <!-- Home Section -->
+    <section id="home">
+        <div class="hero">
+            <h1 class="hero-title">Advanced Text Analysis</h1>
+            <p class="hero-subtitle">Enhancing your content with cutting-edge AI technology</p>
+            <a href="#services" class="cta-button">Explore Services</a>
+        </div>
     </section>
 
-    <section class="features" id="features">
-        <div class="features-grid">
-            <div class="feature-card">
-                <h3>AI-Powered Debates</h3>
-                <p>Advanced AI assistance for real-time debate analysis and strategy generation.</p>
-            </div>
-            <div class="feature-card">
-                <h3>Smart Resolution Drafting</h3>
-                <p>Automated resolution creation using deep logical analysis of debate topics.</p>
-            </div>
-            <div class="feature-card">
-                <h3>Delegate Analytics</h3>
-                <p>Comprehensive analytics and performance tracking for all delegates.</p>
+    <!-- About Section -->
+    <section id="about">
+        <div class="section-content">
+            <h2>About Us</h2>
+            <p class="about-text">
+                DelegateMUN is a leading provider of advanced text analysis services. 
+                Our cutting-edge technology leverages AI to deliver insights and 
+                enhance content across various industries.
+            </p>
+            <div class="about-image">
+                <img src="References/AIReference1.png" alt="AI Analysis" class="about-img">
             </div>
         </div>
     </section>
 
+    <!-- Services Section -->
+    <section id="services">
+        <div class="section-content">
+            <h2>Our Services</h2>
+            <div class="services-grid">
+                <div class="service-card">
+                    <h3>Text Analysis</h3>
+                    <p>Advanced AI-powered text analysis for deep insights.</p>
+                </div>
+                <div class="service-card">
+                    <h3>NLP Processing</h3>
+                    <p>State-of-the-art natural language processing capabilities.</p>
+                </div>
+                <div class="service-card">
+                    <h3>Content Enhancement</h3>
+                    <p>Improve your content with intelligent suggestions and corrections.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <div class="section-content">
+            <h2>Contact Us</h2>
+            <form class="contact-form">
+                <div class="form-group">
+                    <input type="text" placeholder="Name" required>
+                </div>
+                <div class="form-group">
+                    <input type="email" placeholder="Email" required>
+                </div>
+                <div class="form-group">
+                    <textarea placeholder="Message" rows="5" required></textarea>
+                </div>
+                <button type="submit" class="submit-button">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer Section -->
     <footer>
         <div class="footer-content">
-            <div class="footer-section">
-                <h4>DelegateMUN</h4>
-                <p>Revolutionizing Model United Nations with AI</p>
+            <div class="logo">
+                <img src="Logos/DelegateMUN-gold.jpeg" alt="DelegateMUN Logo" class="footer-logo">
             </div>
-            <div class="footer-section">
-                <h4>Quick Links</h4>
+            <div class="contact-info">
+                <h3>Contact Us</h3>
+                <p>Email: support@delegateMUN.com</p>
+                <p>Phone: +1 (555) 123-4567</p>
+                <div class="social-links">
+                    <a href="#" class="social">LinkedIn</a>
+                    <a href="#" class="social">GitHub</a>
+                    <a href="#" class="social">Twitter</a>
+                </div>
+            </div>
+            <div class="terms">
+                <h3>Quick Links</h3>
                 <ul>
                     <li><a href="#home">Home</a></li>
-                    <li><a href="#features">Features</a></li>
                     <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
                     <li><a href="#contact">Contact</a></li>
                 </ul>
             </div>
         </div>
+        <div class="footer-bottom">
+            <p>&copy; 2025 DelegateMUN. All rights reserved.</p>
+        </div>
     </footer>
-
-    <script src="scripts.js"></script>
 </body>
 </html>

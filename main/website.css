@@ -1,0 +1,226 @@
+/* Dark Mode Styles */
+.testimonial-card {
+    background-color: var(--card-background);
+}
+
+/* Blog Section Styles */
+.blog-section {
+    padding: 4rem 2rem;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.blog-post {
+    background-color: var(--card-background);
+    padding: 2rem;
+    margin: 1rem 0;
+    border-radius: 8px;
+}
+
+.blog-post h2 {
+    color: var(--text-color);
+    margin-bottom: 1rem;
+}
+
+.blog-post p {
+    color: var(--text-color);
+    opacity: 0.9;
+}
+
+/* Legal Section Styles */
+.legal-section {
+    padding: 4rem 2rem;
+    max-width: 1200px;
+    margin: 0 auto;
+    color: var(--text-color);
+}
+
+.legal-document {
+    background-color: var(--card-background);
+    padding: 2rem;
+    margin: 1rem 0;
+    border-radius: 8px;
+}
+
+.legal-document h3 {
+    color: var(--text-color);
+    margin-bottom: 1rem;
+}
+
+/* About Section Styles */
+.about-section {
+    padding: 4rem 2rem;
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.about-content {
+    background-color: var(--card-background);
+    padding: 2rem;
+    border-radius: 8px;
+}
+
+/* Privacy Policy Section Styles */
+.privacy-policy {
+    padding: 4rem 2rem;
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: justify;
+}
+
+.privacy-section {
+    background-color: var(--card-background);
+    padding: 2rem;
+    margin: 1rem 0;
+    border-radius: 8px;
+}
+
+/* Loading Animation */
+.loading {
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1000;
+}
+
+/* Scroll Animation */
+.section {
+    opacity: 0;
+    transform: translateY(20px);
+    transition: all 0.8s ease;
+}
+
+.section.visible {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+/* Card Hover Effects */
+.card {
+    transition: all 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.15);
+}
+
+/* Form Styling */
+.form-group {
+    margin-bottom: 1.5rem;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 0.8rem;
+    background-color: var(--card-background);
+    border: 1px solid var(--border-color);
+    color: var(--text-color);
+    border-radius: 4px;
+    margin-top: 0.5rem;
+}
+
+input:focus, textarea:focus {
+    outline: none;
+    border-color: var(--accent-color);
+    box-shadow: 0 0 0 2px rgba(255, 107, 107, 0.2);
+}
+
+/* Button Styles */
+.btn {
+    padding: 0.8rem 1.5rem;
+    border: none;
+    border-radius: 4px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.btn-primary {
+    background-color: var(--secondary-color);
+    color: var(--text-color);
+    border: 1px solid var(--border-color);
+}
+
+.btn-primary:hover {
+    background-color: var(--primary-color);
+    transform: translateY(-2px);
+}
+
+/* Navigation Styles */
+.navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    padding: 1rem 0;
+    background-color: rgba(26, 26, 26, 0.95);
+    backdrop-filter: blur(10px);
+    z-index: 1000;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+}
+
+.navbar-dark .nav-links {
+    display: flex;
+    justify-content: flex-end;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.navbar-dark .nav-links a {
+    color: var(--text-color);
+    text-decoration: none;
+    margin: 0 1rem;
+    padding: 0.5rem 1rem;
+    border-radius: 4px;
+    transition: all 0.3s ease;
+}
+
+.navbar-dark .nav-links a:hover {
+    background-color: var(--card-background);
+}
+
+/* Logo Styles */
+.logo {
+    height: 40px;
+    filter: brightness(0.8);
+    margin-right: 1rem;
+}
+
+/* Dark Mode Toggle */
+#toggleDarkMode {
+    margin-left: 1rem;
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+#toggleDarkMode:hover {
+    background-color: var(--card-background);
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .section {
+        padding: 3rem 0;
+    }
+
+    .card {
+        margin: 0.5rem;
+    }
+
+    .nav-links {
+        display: none;
+    }
+
+    @media (max-width: 480px) {
+        .section {
+            padding: 2rem 0;
+        }
+    }
+}
