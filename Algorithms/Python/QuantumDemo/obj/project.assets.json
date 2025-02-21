@@ -7461,11 +7461,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Bruno Liu\\Documents\\Informative\\Programming\\ProjectWebsite\\main\\Algorithms\\Python\\QuantumDemo\\QuantumDemo.csproj",
+      "projectUniqueName": "C:\\Users\\Bruno Liu\\Documents\\Informative\\Programming\\ProjectWebsite\\Algorithms\\Python\\QuantumDemo\\QuantumDemo.csproj",
       "projectName": "QuantumDemo",
-      "projectPath": "C:\\Users\\Bruno Liu\\Documents\\Informative\\Programming\\ProjectWebsite\\main\\Algorithms\\Python\\QuantumDemo\\QuantumDemo.csproj",
+      "projectPath": "C:\\Users\\Bruno Liu\\Documents\\Informative\\Programming\\ProjectWebsite\\Algorithms\\Python\\QuantumDemo\\QuantumDemo.csproj",
       "packagesPath": "C:\\Users\\Bruno Liu\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Bruno Liu\\Documents\\Informative\\Programming\\ProjectWebsite\\main\\Algorithms\\Python\\QuantumDemo\\obj\\",
+      "outputPath": "C:\\Users\\Bruno Liu\\Documents\\Informative\\Programming\\ProjectWebsite\\Algorithms\\Python\\QuantumDemo\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Bruno Liu\\AppData\\Roaming\\NuGet\\NuGet.Config"
