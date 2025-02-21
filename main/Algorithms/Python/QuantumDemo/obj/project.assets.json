@@ -7461,11 +7461,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "c:\\Users\\Bruno Liu\\Downloads\\ProjectInfinity\\4\\QuantumDemo\\QuantumDemo.csproj",
+      "projectUniqueName": "C:\\Users\\Bruno Liu\\Documents\\Informative\\Programming\\ProjectWebsite\\main\\Algorithms\\Python\\QuantumDemo\\QuantumDemo.csproj",
       "projectName": "QuantumDemo",
-      "projectPath": "c:\\Users\\Bruno Liu\\Downloads\\ProjectInfinity\\4\\QuantumDemo\\QuantumDemo.csproj",
+      "projectPath": "C:\\Users\\Bruno Liu\\Documents\\Informative\\Programming\\ProjectWebsite\\main\\Algorithms\\Python\\QuantumDemo\\QuantumDemo.csproj",
       "packagesPath": "C:\\Users\\Bruno Liu\\.nuget\\packages\\",
-      "outputPath": "c:\\Users\\Bruno Liu\\Downloads\\ProjectInfinity\\4\\QuantumDemo\\obj\\",
+      "outputPath": "C:\\Users\\Bruno Liu\\Documents\\Informative\\Programming\\ProjectWebsite\\main\\Algorithms\\Python\\QuantumDemo\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Bruno Liu\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -7543,7 +7543,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.404/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.406/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "L5bxHXUZzSs=",
+  "dgSpecHash": "FaPQEtUjlII=",
   "success": true,
-  "projectFilePath": "C:\\Users\\Bruno Liu\\Downloads\\ProjectInfinity\\4\\QuantumDemo\\QuantumDemo.csproj",
+  "projectFilePath": "C:\\Users\\Bruno Liu\\Documents\\Informative\\Programming\\ProjectWebsite\\main\\Algorithms\\Python\\QuantumDemo\\QuantumDemo.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Bruno Liu\\.nuget\\packages\\azure.core\\1.25.0\\azure.core.1.25.0.nupkg.sha512",
     "C:\\Users\\Bruno Liu\\.nuget\\packages\\azure.identity\\1.5.0\\azure.identity.1.5.0.nupkg.sha512",
