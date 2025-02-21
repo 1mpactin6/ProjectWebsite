@@ -7,122 +7,94 @@
     <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="header.css">
     <link rel="stylesheet" href="sections.css">
-    <link rel="stylesheet" href="website.css">
-    <link rel="stylesheet" href="footer.css">
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 </head>
 <body>
     <!-- Header Section -->
     <header>
         <nav class="navbar">
             <div class="logo">
-                <img src="Logos/DelegateMUN-gold.jpeg" alt="DelegateMUN Logo" class="logo-img">
-                <h1 class="logo-text">DelegateMUN</h1>
+                <img src="Logos/DelegateMUN-light.jpeg" alt="DelegateMUN Logo" class="logo-img">
+                <span class="logo-text">DelegateMUN</span>
             </div>
-            <div class="nav-links">
-                <ul>
-                    <li><a href="#home">Home</a></li>
-                    <li><a href="#about">About</a></li>
-                    <li><a href="#services">Services</a></li>
-                    <li><a href="#contact">Contact</a></li>
-                </ul>
-            </div>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#analysis">Analysis</a></li>
+                <li><a href="#gallery">Gallery</a></li>
+                <li><a href="#team">Team</a></li>
+                <li><a href="#testimonials">Testimonials</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
         </nav>
     </header>
 
-    <!-- Home Section -->
-    <section id="home">
-        <div class="hero">
-            <h1 class="hero-title">Advanced Text Analysis</h1>
-            <p class="hero-subtitle">Enhancing your content with cutting-edge AI technology</p>
-            <a href="#services" class="cta-button">Explore Services</a>
-        </div>
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <h1 class="hero-title">Advanced Text Analysis</h1>
+        <p class="hero-subtitle">Empowering decision-makers with deep contextual understanding</p>
+        <a href="#contact" class="hero-button">Get Started</a>
     </section>
 
-    <!-- About Section -->
-    <section id="about">
-        <div class="section-content">
-            <h2>About Us</h2>
-            <p class="about-text">
-                DelegateMUN is a leading provider of advanced text analysis services. 
-                Our cutting-edge technology leverages AI to deliver insights and 
-                enhance content across various industries.
-            </p>
-            <div class="about-image">
-                <img src="References/AIReference1.png" alt="AI Analysis" class="about-img">
+    <!-- Services Section -->
+    <section class="services" id="services">
+        <div class="services-grid">
+            <div class="service-card">
+                <img src="References/AIReference1.png" alt="AI Analysis" class="service-image">
+                <h3>Advanced AI Analysis</h3>
+                <p>Deep contextual understanding powered by state-of-the-art AI models</p>
+            </div>
+            <div class="service-card">
+                <img src="References/AIReference2.png" alt="Context Mapping" class="service-image">
+                <h3>Context Mapping</h3>
+                <p>Visual representation of key themes and relationships</p>
+            </div>
+            <div class="service-card">
+                <img src="References/AIReference3.png" alt="Sentiment Analysis" class="service-image">
+                <h3>Sentiment Analysis</h3>
+                <p>Advanced emotion detection and tone analysis</p>
             </div>
         </div>
     </section>
 
-    <!-- Services Section -->
-    <section id="services">
-        <div class="section-content">
-            <h2>Our Services</h2>
-            <div class="services-grid">
-                <div class="service-card">
-                    <h3>Text Analysis</h3>
-                    <p>Advanced AI-powered text analysis for deep insights.</p>
-                </div>
-                <div class="service-card">
-                    <h3>NLP Processing</h3>
-                    <p>State-of-the-art natural language processing capabilities.</p>
-                </div>
-                <div class="service-card">
-                    <h3>Content Enhancement</h3>
-                    <p>Improve your content with intelligent suggestions and corrections.</p>
-                </div>
+    <!-- Analysis Section -->
+    <section class="analysis" id="analysis">
+        <div class="analysis-content">
+            <h2>Comprehensive Text Analysis</h2>
+            <p>Our advanced algorithms provide detailed insights into text data, identifying key themes, relationships, and patterns that drive informed decision-making.</p>
+        </div>
+    </section>
+
+    <!-- Gallery Section -->
+    <section class="gallery" id="gallery">
+        <div class="gallery-grid">
+            <div class="gallery-item">
+                <img src="References/DeepLogicWebsite-large.png" alt="Analysis Example">
+            </div>
+            <div class="gallery-item">
+                <img src="References/DeepLogicWebsite3.png" alt="Visualization Example">
+            </div>
+            <div class="gallery-item">
+                <img src="References/DeepLogicWebsite4.png" alt="Dashboard Example">
             </div>
         </div>
     </section>
 
     <!-- Contact Section -->
-    <section id="contact">
-        <div class="section-content">
-            <h2>Contact Us</h2>
-            <form class="contact-form">
-                <div class="form-group">
-                    <input type="text" placeholder="Name" required>
-                </div>
-                <div class="form-group">
-                    <input type="email" placeholder="Email" required>
-                </div>
-                <div class="form-group">
-                    <textarea placeholder="Message" rows="5" required></textarea>
-                </div>
-                <button type="submit" class="submit-button">Send Message</button>
-            </form>
-        </div>
+    <section class="contact" id="contact">
+        <form class="contact-form">
+            <div class="form-group">
+                <input type="text" placeholder="Name" required>
+            </div>
+            <div class="form-group">
+                <input type="email" placeholder="Email" required>
+            </div>
+            <div class="form-group">
+                <textarea placeholder="Message" rows="5" required></textarea>
+            </div>
+            <button type="submit">Send Message</button>
+        </form>
     </section>
 
-    <!-- Footer Section -->
-    <footer>
-        <div class="footer-content">
-            <div class="logo">
-                <img src="Logos/DelegateMUN-gold.jpeg" alt="DelegateMUN Logo" class="footer-logo">
-            </div>
-            <div class="contact-info">
-                <h3>Contact Us</h3>
-                <p>Email: support@delegateMUN.com</p>
-                <p>Phone: +1 (555) 123-4567</p>
-                <div class="social-links">
-                    <a href="#" class="social">LinkedIn</a>
-                    <a href="#" class="social">GitHub</a>
-                    <a href="#" class="social">Twitter</a>
-                </div>
-            </div>
-            <div class="terms">
-                <h3>Quick Links</h3>
-                <ul>
-                    <li><a href="#home">Home</a></li>
-                    <li><a href="#about">About</a></li>
-                    <li><a href="#services">Services</a></li>
-                    <li><a href="#contact">Contact</a></li>
-                </ul>
-            </div>
-        </div>
-        <div class="footer-bottom">
-            <p>&copy; 2025 DelegateMUN. All rights reserved.</p>
-        </div>
-    </footer>
+    <script src="scripts.js"></script>
 </body>
 </html>
