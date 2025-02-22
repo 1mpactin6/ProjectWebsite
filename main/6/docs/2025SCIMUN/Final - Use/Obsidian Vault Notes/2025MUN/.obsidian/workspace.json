@@ -1,0 +1,204 @@
+{
+  "main": {
+    "id": "9e78c86fb49b5158",
+    "type": "split",
+    "children": [
+      {
+        "id": "12c9d2bf2cac31ae",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "46febbc68d78101f",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "New tab"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "947ffc5a99daa825",
+    "type": "split",
+    "children": [
+      {
+        "id": "e816badc3315d4fa",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "a2fb018b74251730",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "cc8ef284c1fe3bd3",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "6faf120cc5507540",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "527ff107330ab7ce",
+    "type": "split",
+    "children": [
+      {
+        "id": "9fe37ec40c6f60ac",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "8585883fcd962195",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks"
+            }
+          },
+          {
+            "id": "f8ee6ce0d14ecef4",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links"
+            }
+          },
+          {
+            "id": "82c0efc5848e2455",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "621a8e29359d6eb8",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {},
+              "icon": "lucide-list",
+              "title": "Outline"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false
+    }
+  },
+  "active": "46febbc68d78101f",
+  "lastOpenFiles": [
+    "FinalRelevance/Personal POIs.md",
+    "FinalRelevance/Prepared Others POIs.md",
+    "FinalRelevance/Destroy.md",
+    "WordDocNotes/Reso Amendment Template.md",
+    "FinalRelevance/Resolution 1&2.md",
+    "WordDocNotes/Recognized Situation.md",
+    "FinalRelevance/Amendments",
+    "FinalRelevance/Unused/Infomations/Country Information.md",
+    "Relevance/Unused/Reso and Amend/Resolution 1&2.md",
+    "FinalRelevance/Unused/Daily Notes/2025-01-09.md",
+    "FinalRelevance/Unused/Daily Notes/2025-01-13.md",
+    "FinalRelevance/PositionDrafts/Position Paper (Repurposed)/Position Paper Topic 1.md",
+    "FinalRelevance/PositionDrafts/Position Papers SHORT/Topic 1.md",
+    "FinalRelevance/Unused/Daily Notes/2024-12-24.md",
+    "FinalRelevance/PositionDrafts/Final/Position Paper - Editing T2.md",
+    "FinalRelevance/PositionDrafts/Position Paper (Repurposed)/Position Paper Topic 2.md",
+    "FinalRelevance/PositionDrafts/Final/Position Paper - Editing T1.md",
+    "FinalRelevance/SpeechDrafts/Short!!!/Speech T1.md",
+    "FinalRelevance/Reso and Amend",
+    "FinalRelevance/Unused/Infomations",
+    "FinalRelevance/Unused/Daily Notes",
+    "FinalRelevance/PositionDrafts/Position Paper Draft 1 - Topic 1.md",
+    "FinalRelevance/PositionDrafts/Position Papers SHORT",
+    "FinalRelevance/PositionDrafts/Position Paper Draft 1 - Topic 2.md",
+    "FinalRelevance/PositionDrafts/Position Paper 1&2.md",
+    "FinalRelevance/PositionDrafts/Position Paper (Repurposed)",
+    "FinalRelevance/PositionDrafts/Final",
+    "FinalRelevance/SpeechDrafts/Speech Draft 1 - Topic 2.md",
+    "FinalRelevance/SpeechDrafts/Speech Final - Editing T2.md",
+    "FinalRelevance/SpeechDrafts/Speech Draft 1 - Topic 1.md",
+    "FinalRelevance/SpeechDrafts/Speech Final - Editing T1.md",
+    "FinalRelevance/SpeechDrafts/Short!!!",
+    "FinalRelevance/InformationFinals/Speech - Topic 2.md",
+    "FinalRelevance/InformationFinals/Speech - Topic 1.md",
+    "FinalRelevance/Unused",
+    "FinalRelevance/PositionDrafts",
+    "Untitled.canvas",
+    "Templates/obby Templates/obsidian-starter-templates-master/researcher/images/panda.jpg",
+    "Templates/obby Templates/obsidian-starter-templates-master/assets/researcher.png",
+    "Templates/obby Templates/obsidian-starter-templates-master/assets/technology_radar.png",
+    "Templates/obby Templates/obsidian-starter-templates-master/assets/kanban.png",
+    "Templates/obby Templates/obsidian-starter-templates-master/assets/editor_syntax_highlight.png",
+    "Templates/obby Templates/obsidian-starter-templates-master/assets/citations_open_literature_note.png"
+  ]
+}

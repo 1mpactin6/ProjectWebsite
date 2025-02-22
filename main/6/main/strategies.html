@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Strategies - DelegateMUN</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" />
+    <style>
+        .strategy-section {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 4rem 2rem;
+        }
+        .strategy-card {
+            background: rgba(255, 255, 255, 0.05);
+            padding: 2rem;
+            border-radius: 10px;
+            margin-bottom: 2rem;
+            transition: transform 0.3s ease;
+        }
+        .strategy-card:hover {
+            transform: translateY(-5px);
+        }
+        .strategy-card h3 {
+            color: var(--accent-orange);
+            margin-bottom: 1rem;
+            display: flex;
+            align-items: center;
+            gap: 1rem;
+        }
+        .strategy-number {
+            background: var(--accent-orange);
+            color: var(--text-light);
+            width: 32px;
+            height: 32px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 1.2rem;
+            font-weight: bold;
+        }
+        .strategy-steps {
+            margin-top: 1rem;
+            padding-left: 1rem;
+        }
+        .strategy-steps li {
+            margin-bottom: 0.5rem;
+            color: var(--text-gray);
+        }
+    </style>
+</head>
+<body>
+    <header class="header">
+        <nav class="nav-container">
+            <div class="logo">
+                <img src="Logos/DelegateMUN-light.jpeg" alt="DelegateMUN Logo">
+            </div>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="advantages.html">Advantages</a></li>
+                <li><a href="#">Strategies</a></li>
+                <li><a href="legit-ai.html">Legit AI Usage</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero" data-aos="fade-up">
+            <div class="hero-content">
+                <h1>Text Analysis Strategies</h1>
+                <p>Master the art of efficient text analysis with our proven strategies</p>
+            </div>
+        </section>
+
+        <section class="strategy-section">
+            <div class="strategy-card" data-aos="fade-up">
+                <h3><span class="strategy-number">1</span>Data Preparation</h3>
+                <p>Properly preparing your text data is crucial for accurate analysis</p>
+                <ul class="strategy-steps">
+                    <li>Clean and format your text data</li>
+                    <li>Remove irrelevant information</li>
+                    <li>Standardize text formatting</li>
+                    <li>Organize documents by category</li>
+                </ul>
+            </div>
+
+            <div class="strategy-card" data-aos="fade-up" data-aos-delay="100">
+                <h3><span class="strategy-number">2</span>Analysis Configuration</h3>
+                <p>Configure the analysis parameters for optimal results</p>
+                <ul class="strategy-steps">
+                    <li>Select appropriate analysis models</li>
+                    <li>Set relevance thresholds</li>
+                    <li>Configure language settings</li>
+                    <li>Define custom parameters</li>
+                </ul>
+            </div>
+
+            <div class="strategy-card" data-aos="fade-up" data-aos-delay="200">
+                <h3><span class="strategy-number">3</span>Pattern Recognition</h3>
+                <p>Leverage our advanced pattern recognition capabilities</p>
+                <ul class="strategy-steps">
+                    <li>Identify key themes and topics</li>
+                    <li>Analyze sentiment patterns</li>
+                    <li>Extract relevant entities</li>
+                    <li>Track pattern evolution</li>
+                </ul>
+            </div>
+
+            <div class="strategy-card" data-aos="fade-up" data-aos-delay="300">
+                <h3><span class="strategy-number">4</span>Results Interpretation</h3>
+                <p>Make the most of your analysis results</p>
+                <ul class="strategy-steps">
+                    <li>Review analysis metrics</li>
+                    <li>Validate findings</li>
+                    <li>Generate comprehensive reports</li>
+                    <li>Share insights with stakeholders</li>
+                </ul>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>DelegateMUN</h3>
+                <p>Advanced text analysis services for modern needs</p>
+            </div>
+            <div class="footer-section">
+                <h3>Quick Links</h3>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="advantages.html">Advantages</a></li>
+                    <li><a href="legit-ai.html">Legit AI Usage</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h3>Contact</h3>
+                <p>Email: info@delegatemun.ai</p>
+                <p>Phone: (555) 123-4567</p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2024 DelegateMUN. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+    <script>
+        AOS.init({
+            duration: 1000,
+            once: true
+        });
+    </script>
+</body>
+</html>
