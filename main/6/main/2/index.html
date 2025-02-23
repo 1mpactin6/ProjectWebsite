@@ -1,0 +1,447 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>DelegateMUN AI - Empowering Model UN Delegates</title>
+<script src="https://cdn.tailwindcss.com"></script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+<link href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css" rel="stylesheet">
+<style>
+:where([class^="ri-"])::before { content: "\f3c2"; }
+.stats-item { counter-increment: stats; }
+.blur-header { backdrop-filter: blur(8px); }
+.gradient-bg { background: linear-gradient(135deg, #000020 0%, #4A90E2 100%); }
+</style>
+<script>
+tailwind.config = {
+theme: {
+extend: {
+colors: {
+primary: '#000020',
+secondary: '#FFD700',
+darkBlue: '#000033',
+darkBlue2: '#000044'
+},
+borderRadius: {
+'none': '0px',
+'sm': '4px',
+DEFAULT: '8px',
+'md': '12px',
+'lg': '16px',
+'xl': '20px',
+'2xl': '24px',
+'3xl': '32px',
+'full': '9999px',
+'button': '8px'
+}
+}
+}
+}
+</script>
+</head>
+<body class="bg-darkBlue text-gray-200">
+<header class="fixed w-full z-50 blur-header bg-primary/80">
+<nav class="container mx-auto px-6 py-4">
+<div class="flex items-center justify-between">
+<a href="#" class="text-3xl font-['Pacifico'] text-white">logo</a>
+<div class="hidden md:flex space-x-8">
+<a href="#home" class="text-white hover:text-secondary transition-colors">Home</a>
+<a href="#advantages" class="text-white hover:text-secondary transition-colors">Advantages</a>
+<a href="#strategies" class="text-white hover:text-secondary transition-colors">Strategies</a>
+<a href="#guidelines" class="text-white hover:text-secondary transition-colors">Legit AI Usage</a>
+</div>
+<button id="menuBtn" class="md:hidden text-white">
+<i class="ri-menu-line ri-2x"></i>
+</button>
+</div>
+</nav>
+<div id="mobileMenu" class="hidden md:hidden bg-primary/95 p-6">
+<div class="flex flex-col space-y-4">
+<a href="#home" class="text-white hover:text-secondary transition-colors">Home</a>
+<a href="#advantages" class="text-white hover:text-secondary transition-colors">Advantages</a>
+<a href="#strategies" class="text-white hover:text-secondary transition-colors">Strategies</a>
+<a href="#guidelines" class="text-white hover:text-secondary transition-colors">Legit AI Usage</a>
+</div>
+</div>
+</header>
+<main>
+<section id="home" class="min-h-screen flex items-center pt-20 relative overflow-hidden">
+<div class="absolute inset-0 z-0">
+<img src="https://public.readdy.ai/ai/img_res/c2577af3be97817b3a2c4fd4daac7c89.jpg"
+class="w-full h-full object-cover object-center" alt="Hero Background">
+</div>
+<div class="container mx-auto px-6 relative z-10">
+<div class="max-w-2xl">
+<h1 class="text-5xl md:text-6xl font-bold text-white mb-6">
+Revolutionize Your Model UN Experience
+</h1>
+<p class="text-xl text-gray-200 mb-8">
+Harness the power of advanced AI technology to enhance your delegate performance, research capabilities, and diplomatic strategies.
+</p>
+<button class="bg-secondary hover:bg-secondary/90 text-darkBlue px-8 py-4 !rounded-button text-lg font-semibold shadow-lg transition-all whitespace-nowrap">
+Get Started Now
+</button>
+</div>
+</div>
+</section>
+<section id="features" class="py-20 bg-darkBlue2">
+<div class="container mx-auto px-6">
+<h2 class="text-4xl font-bold text-center mb-16 text-secondary">Our Services</h2>
+<div class="grid md:grid-cols-2 gap-8">
+<div class="bg-darkBlue2/50 p-8 rounded-lg shadow-lg backdrop-blur-sm">
+<img src="https://public.readdy.ai/ai/img_res/b8c796d7d3ba4351deb3eb99ace94b9b.jpg"
+class="w-full h-48 object-cover rounded-lg mb-6" alt="Research Assistant">
+<h3 class="text-2xl font-bold mb-4">AI Research Assistant</h3>
+<p class="text-gray-300">Accelerate your research process with our intelligent system that analyzes vast amounts of data to provide relevant insights and recommendations.</p>
+</div>
+<div class="bg-darkBlue2/50 p-8 rounded-lg shadow-lg backdrop-blur-sm">
+<img src="https://public.readdy.ai/ai/img_res/c7a2d5b33f230670706981a37139d711.jpg"
+class="w-full h-48 object-cover rounded-lg mb-6" alt="Strategy Analysis">
+<h3 class="text-2xl font-bold mb-4">Strategy Analysis</h3>
+<p class="text-gray-300">Get real-time insights into diplomatic strategies and negotiate more effectively with AI-powered analysis of global political dynamics.</p>
+</div>
+</div>
+</div>
+</section>
+<section id="statistics" class="py-20 bg-darkBlue">
+<div class="container mx-auto px-6">
+<div class="grid md:grid-cols-3 gap-8 text-center">
+<div class="stats-item">
+<div class="text-5xl font-bold text-secondary mb-4">99%</div>
+<p class="text-gray-300">Accuracy Rate</p>
+</div>
+<div class="stats-item">
+<div class="text-5xl font-bold text-secondary mb-4">24/7</div>
+<p class="text-gray-300">Support Available</p>
+</div>
+<div class="stats-item">
+<div class="text-5xl font-bold text-secondary mb-4">10K+</div>
+<p class="text-gray-300">Active Users</p>
+</div>
+</div>
+</div>
+</section>
+<section id="advantages" class="py-20 bg-darkBlue">
+<div class="container mx-auto px-6">
+<h2 class="text-4xl font-bold text-center mb-16 text-secondary">Key Advantages</h2>
+<div class="grid md:grid-cols-3 gap-8">
+<div class="bg-darkBlue/50 p-8 rounded-lg shadow-lg hover:shadow-xl transition-shadow border border-gray-700">
+<div class="w-12 h-12 flex items-center justify-center mb-4">
+<i class="ri-flashlight-line text-3xl text-secondary"></i>
+</div>
+<h3 class="text-xl font-bold mb-3 text-white">Lightning Fast Processing</h3>
+<p class="text-white">Process vast amounts of diplomatic data in seconds, enabling quick decision-making and response formulation during critical negotiations.</p>
+</div>
+<div class="bg-darkBlue/50 p-8 rounded-lg shadow-lg hover:shadow-xl transition-shadow border border-gray-700">
+<div class="w-12 h-12 flex items-center justify-center mb-4">
+<i class="ri-check-double-line text-3xl text-secondary"></i>
+</div>
+<h3 class="text-xl font-bold mb-3 text-white">High Accuracy</h3>
+<p class="text-white">Achieve 99.9% accuracy in data analysis and recommendations, ensuring reliable insights for your diplomatic strategies.</p>
+</div>
+<div class="bg-darkBlue/50 p-8 rounded-lg shadow-lg hover:shadow-xl transition-shadow border border-gray-700">
+<div class="w-12 h-12 flex items-center justify-center mb-4">
+<i class="ri-shield-check-line text-3xl text-secondary"></i>
+</div>
+<h3 class="text-xl font-bold mb-3 text-white">Enhanced Security</h3>
+<p class="text-white">State-of-the-art encryption and security protocols protect your sensitive diplomatic information and strategic plans.</p>
+</div>
+<div class="bg-darkBlue/50 p-8 rounded-lg shadow-lg hover:shadow-xl transition-shadow border border-gray-700">
+<div class="w-12 h-12 flex items-center justify-center mb-4">
+<i class="ri-brain-line text-3xl text-secondary"></i>
+</div>
+<h3 class="text-xl font-bold mb-3 text-white">Smart Insights</h3>
+<p class="text-white">Advanced AI algorithms provide deep insights into complex diplomatic scenarios and potential negotiation outcomes.</p>
+</div>
+<div class="bg-darkBlue/50 p-8 rounded-lg shadow-lg hover:shadow-xl transition-shadow border border-gray-700">
+<div class="w-12 h-12 flex items-center justify-center mb-4">
+<i class="ri-refresh-line text-3xl text-secondary"></i>
+</div>
+<h3 class="text-xl font-bold mb-3 text-white">Real-time Updates</h3>
+<p class="text-white">Stay informed with instant updates on global political developments and changing diplomatic landscapes.</p>
+</div>
+<div class="bg-darkBlue/50 p-8 rounded-lg shadow-lg hover:shadow-xl transition-shadow border border-gray-700">
+<div class="w-12 h-12 flex items-center justify-center mb-4">
+<i class="ri-global-line text-3xl text-secondary"></i>
+</div>
+<h3 class="text-xl font-bold mb-3 text-white">Global Support</h3>
+<p class="text-white">24/7 access to worldwide support network and resources for comprehensive diplomatic assistance.</p>
+</div>
+</div>
+</div>
+</section>
+<section id="strategies" class="py-20 bg-darkBlue2">
+<div class="container mx-auto px-6">
+<h2 class="text-4xl font-bold text-center mb-16 text-secondary">Strategic Approach</h2>
+<div class="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
+<div class="bg-darkBlue2/50 p-8 rounded-lg shadow-lg backdrop-blur-sm">
+<div class="w-12 h-12 flex items-center justify-center mb-4 bg-secondary text-darkBlue rounded-full">
+<span class="text-xl font-bold">1</span>
+</div>
+<h3 class="text-xl font-bold mb-3 text-white">Data Preparation</h3>
+<p class="text-gray-600 mb-4">Organize and structure your diplomatic information for optimal analysis.</p>
+<ul class="space-y-2 text-gray-600">
+<li class="flex items-start">
+<i class="ri-checkbox-circle-fill w-5 h-5 mr-2 text-secondary"></i>
+<span>Collect relevant documents</span>
+</li>
+<li class="flex items-start">
+<i class="ri-checkbox-circle-fill w-5 h-5 mr-2 text-secondary"></i>
+<span>Format data consistently</span>
+</li>
+<li class="flex items-start">
+<i class="ri-checkbox-circle-fill w-5 h-5 mr-2 text-secondary"></i>
+<span>Validate information sources</span>
+</li>
+</ul>
+</div>
+<div class="bg-darkBlue2/50 p-8 rounded-lg shadow-lg backdrop-blur-sm">
+<div class="w-12 h-12 flex items-center justify-center mb-4 bg-secondary text-darkBlue rounded-full">
+<span class="text-xl font-bold">2</span>
+</div>
+<h3 class="text-xl font-bold mb-3 text-white">Analysis Configuration</h3>
+<p class="text-gray-600 mb-4">Set up parameters for comprehensive diplomatic analysis.</p>
+<ul class="space-y-2 text-gray-600">
+<li class="flex items-start">
+<i class="ri-checkbox-circle-fill w-5 h-5 mr-2 text-secondary"></i>
+<span>Define analysis scope</span>
+</li>
+<li class="flex items-start">
+<i class="ri-checkbox-circle-fill w-5 h-5 mr-2 text-secondary"></i>
+<span>Set priority metrics</span>
+</li>
+<li class="flex items-start">
+<i class="ri-checkbox-circle-fill w-5 h-5 mr-2 text-secondary"></i>
+<span>Configure AI parameters</span>
+</li>
+</ul>
+</div>
+<div class="bg-darkBlue2/50 p-8 rounded-lg shadow-lg backdrop-blur-sm">
+<div class="w-12 h-12 flex items-center justify-center mb-4 bg-secondary text-darkBlue rounded-full">
+<span class="text-xl font-bold">3</span>
+</div>
+<h3 class="text-xl font-bold mb-3 text-white">Pattern Recognition</h3>
+<p class="text-gray-600 mb-4">Identify key patterns and trends in diplomatic relations.</p>
+<ul class="space-y-2 text-gray-600">
+<li class="flex items-start">
+<i class="ri-checkbox-circle-fill w-5 h-5 mr-2 text-secondary"></i>
+<span>Analyze historical data</span>
+</li>
+<li class="flex items-start">
+<i class="ri-checkbox-circle-fill w-5 h-5 mr-2 text-secondary"></i>
+<span>Detect emerging trends</span>
+</li>
+<li class="flex items-start">
+<i class="ri-checkbox-circle-fill w-5 h-5 mr-2 text-secondary"></i>
+<span>Map relationship networks</span>
+</li>
+</ul>
+</div>
+<div class="bg-darkBlue2/50 p-8 rounded-lg shadow-lg backdrop-blur-sm">
+<div class="w-12 h-12 flex items-center justify-center mb-4 bg-secondary text-darkBlue rounded-full">
+<span class="text-xl font-bold">4</span>
+</div>
+<h3 class="text-xl font-bold mb-3 text-white">Results Interpretation</h3>
+<p class="text-gray-600 mb-4">Transform analysis into actionable diplomatic strategies.</p>
+<ul class="space-y-2 text-gray-600">
+<li class="flex items-start">
+<i class="ri-checkbox-circle-fill w-5 h-5 mr-2 text-secondary"></i>
+<span>Generate insights report</span>
+</li>
+<li class="flex items-start">
+<i class="ri-checkbox-circle-fill w-5 h-5 mr-2 text-secondary"></i>
+<span>Develop action plans</span>
+</li>
+<li class="flex items-start">
+<i class="ri-checkbox-circle-fill w-5 h-5 mr-2 text-secondary"></i>
+<span>Implement strategies</span>
+</li>
+</ul>
+</div>
+</div>
+</div>
+</section>
+<section id="guidelines" class="py-20 bg-darkBlue">
+<div class="container mx-auto px-6">
+<h2 class="text-4xl font-bold text-center mb-16 text-secondary">Usage Guidelines</h2>
+<div class="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
+<div class="bg-darkBlue2/50 p-8 rounded-lg shadow-lg backdrop-blur-sm">
+<div class="w-12 h-12 flex items-center justify-center mb-4">
+<i class="ri-scales-3-line text-3xl text-secondary"></i>
+</div>
+<h3 class="text-xl font-bold mb-3 text-white">Ethical Considerations</h3>
+<p class="text-white mb-4">Ensure responsible AI usage in diplomatic contexts.</p>
+<ul class="space-y-2 text-gray-600">
+<li class="flex items-start">
+<i class="ri-check-fill w-5 h-5 mr-2 text-secondary"></i>
+<span>Maintain transparency</span>
+</li>
+<li class="flex items-start">
+<i class="ri-check-fill w-5 h-5 mr-2 text-secondary"></i>
+<span>Respect privacy rights</span>
+</li>
+<li class="flex items-start">
+<i class="ri-check-fill w-5 h-5 mr-2 text-secondary"></i>
+<span>Follow ethical guidelines</span>
+</li>
+</ul>
+</div>
+<div class="bg-darkBlue2/50 p-8 rounded-lg shadow-lg backdrop-blur-sm">
+<div class="w-12 h-12 flex items-center justify-center mb-4">
+<i class="ri-search-line text-3xl text-secondary"></i>
+</div>
+<h3 class="text-xl font-bold mb-3 text-white">Data Usage Guidelines</h3>
+<p class="text-white mb-4">Best practices for handling diplomatic data.</p>
+<ul class="space-y-2 text-gray-600">
+<li class="flex items-start">
+<i class="ri-check-fill w-5 h-5 mr-2 text-secondary"></i>
+<span>Secure data storage</span>
+</li>
+<li class="flex items-start">
+<i class="ri-check-fill w-5 h-5 mr-2 text-secondary"></i>
+<span>Regular backups</span>
+</li>
+<li class="flex items-start">
+<i class="ri-check-fill w-5 h-5 mr-2 text-secondary"></i>
+<span>Access control</span>
+</li>
+</ul>
+</div>
+<div class="bg-darkBlue2/50 p-8 rounded-lg shadow-lg backdrop-blur-sm">
+<div class="w-12 h-12 flex items-center justify-center mb-4">
+<i class="ri-shield-check-line text-3xl text-secondary"></i>
+</div>
+<h3 class="text-xl font-bold mb-3 text-white">Compliance Framework</h3>
+<p class="text-white mb-4">Stay compliant with international standards.</p>
+<ul class="space-y-2 text-gray-600">
+<li class="flex items-start">
+<i class="ri-check-fill w-5 h-5 mr-2 text-secondary"></i>
+<span>GDPR compliance</span>
+</li>
+<li class="flex items-start">
+<i class="ri-check-fill w-5 h-5 mr-2 text-secondary"></i>
+<span>Data protection</span>
+</li>
+<li class="flex items-start">
+<i class="ri-check-fill w-5 h-5 mr-2 text-secondary"></i>
+<span>Regular audits</span>
+</li>
+</ul>
+</div>
+<div class="bg-darkBlue2/50 p-8 rounded-lg shadow-lg backdrop-blur-sm">
+<div class="w-12 h-12 flex items-center justify-center mb-4">
+<i class="ri-team-line text-3xl text-secondary"></i>
+</div>
+<h3 class="text-xl font-bold mb-3 text-white">User Rights & Consent</h3>
+<p class="text-white mb-4">Understanding user privileges and responsibilities.</p>
+<ul class="space-y-2 text-gray-600">
+<li class="flex items-start">
+<i class="ri-check-fill w-5 h-5 mr-2 text-secondary"></i>
+<span>Clear consent forms</span>
+</li>
+<li class="flex items-start">
+<i class="ri-check-fill w-5 h-5 mr-2 text-secondary"></i>
+<span>Data ownership</span>
+</li>
+<li class="flex items-start">
+<i class="ri-check-fill w-5 h-5 mr-2 text-secondary"></i>
+<span>Right to access</span>
+</li>
+</ul>
+</div>
+</div>
+</div>
+</section>
+<section id="testimonials" class="py-20 bg-darkBlue2">
+<div class="container mx-auto px-6">
+<h2 class="text-4xl font-bold text-center mb-16 text-secondary">What Our Users Say</h2>
+<div class="grid md:grid-cols-2 gap-8">
+<div class="bg-darkBlue2/50 p-8 rounded-lg shadow-lg backdrop-blur-sm">
+<div class="flex items-center mb-6">
+<img src="https://public.readdy.ai/ai/img_res/8b19e762bf3765bc260e41f56086ad97.jpg"
+class="w-16 h-16 rounded-full object-cover mr-4" alt="Sarah Mitchell">
+<div>
+<h4 class="font-bold">Sarah Mitchell</h4>
+<p class="text-gray-300">Harvard MUN Delegate</p>
+</div>
+</div>
+<p class="text-gray-300 italic">"DelegateMUN AI has transformed my preparation process. The insights and analysis provided are invaluable for crafting winning strategies."</p>
+</div>
+<div class="bg-darkBlue2/50 p-8 rounded-lg shadow-lg backdrop-blur-sm">
+<div class="flex items-center mb-6">
+<img src="https://public.readdy.ai/ai/img_res/debd86ed90bb6ce76e0e28c30350fd76.jpg"
+class="w-16 h-16 rounded-full object-cover mr-4" alt="James Thompson">
+<div>
+<h4 class="font-bold">James Thompson</h4>
+<p class="text-gray-300">Yale MUN Director</p>
+</div>
+</div>
+<p class="text-gray-300 italic">"The platform's ability to process complex diplomatic scenarios and provide actionable insights has greatly enhanced our delegation's performance."</p>
+</div>
+</div>
+</div>
+</section>
+</main>
+<footer class="bg-primary text-white pt-16 pb-8">
+<div class="container mx-auto px-6">
+<div class="grid md:grid-cols-3 gap-8 mb-8">
+<div>
+<h3 class="text-2xl font-['Pacifico'] mb-4">logo</h3>
+<p class="text-gray-300">Empowering Model UN delegates with advanced AI technology for better research, strategy, and performance.</p>
+</div>
+<div>
+<h4 class="font-bold mb-4">Quick Links</h4>
+<ul class="space-y-2">
+<li><a href="#home" class="text-gray-300 hover:text-white transition-colors">Home</a></li>
+<li><a href="#advantages" class="text-gray-300 hover:text-white transition-colors">Advantages</a></li>
+<li><a href="#strategies" class="text-gray-300 hover:text-white transition-colors">Strategies</a></li>
+<li><a href="#guidelines" class="text-gray-300 hover:text-white transition-colors">Legit AI Usage</a></li>
+</ul>
+</div>
+<div>
+<h4 class="font-bold mb-4">Contact Us</h4>
+<div class="space-y-2">
+<p class="flex items-center">
+<i class="ri-mail-line w-6 h-6 flex items-center justify-center mr-2"></i>
+contact@delegatemun.ai
+</p>
+<p class="flex items-center">
+<i class="ri-phone-line w-6 h-6 flex items-center justify-center mr-2"></i>
++1 (555) 123-4567
+</p>
+</div>
+</div>
+</div>
+<div class="border-t border-gray-700 pt-8 text-center">
+<p class="text-gray-400">&copy; 2025 DelegateMUN AI. All rights reserved.</p>
+</div>
+</div>
+</footer>
+<script>
+document.getElementById('menuBtn').addEventListener('click', function() {
+document.getElementById('mobileMenu').classList.toggle('hidden');
+});
+const stats = document.querySelectorAll('.stats-item div');
+const observerOptions = {
+threshold: 0.5
+};
+const observer = new IntersectionObserver((entries) => {
+entries.forEach(entry => {
+if (entry.isIntersecting) {
+entry.target.style.opacity = 1;
+entry.target.style.transform = 'translateY(0)';
+}
+});
+}, observerOptions);
+stats.forEach(stat => {
+stat.style.opacity = 0;
+stat.style.transform = 'translateY(20px)';
+stat.style.transition = 'all 0.6s ease-out';
+observer.observe(stat);
+});
+</script>
+</body>
+</html>
