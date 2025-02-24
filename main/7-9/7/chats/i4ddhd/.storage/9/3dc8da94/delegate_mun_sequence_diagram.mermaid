@@ -1,0 +1,14 @@
+sequenceDiagram
+    participant User
+    participant MainPage
+    participant IndividualPage
+    participant DocumentationPage
+    participant NavigationPlane
+    User->>MainPage: visit main page
+    MainPage->>NavigationPlane: render navigation
+    User->>IndividualPage: visit individual page
+    IndividualPage->>NavigationPlane: render navigation
+    User->>DocumentationPage: visit documentation page
+    DocumentationPage->>NavigationPlane: render navigation
+    User->>NavigationPlane: click on section
+    NavigationPlane->>DocumentationPage: navigateToSection(sectionId)

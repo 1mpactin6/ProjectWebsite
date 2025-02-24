@@ -1,0 +1,18 @@
+classDiagram
+    class MainPage {
+        +render()
+    }
+    class IndividualPage {
+        +render()
+    }
+    class DocumentationPage {
+        +render()
+        +navigateToSection(sectionId: str)
+    }
+    class NavigationPlane {
+        +render()
+        +handleClick(sectionId: str)
+    }
+    MainPage --> NavigationPlane
+    IndividualPage --> NavigationPlane
+    DocumentationPage --> NavigationPlane
